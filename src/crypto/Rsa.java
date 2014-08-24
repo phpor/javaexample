@@ -2,7 +2,9 @@ package crypto;
 
 import java.math.BigInteger;
 
-
+/**
+ * 1. modPow(...) 是在rsa计算中用到的
+ */
 public class Rsa {
 	public static void main(String[] args) {
 		Rsa.test_bigint();
